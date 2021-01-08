@@ -1,0 +1,27 @@
+html {
+    background: coral url('https://picsum.photos/seed/picsum/1500/1000?blur');
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    font-size: 2rem;
+
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(.1, 2.7, .58, 1);
+}
+.second-hand {
+    transform: rotate();
+}

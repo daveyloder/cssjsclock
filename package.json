@@ -1,0 +1,16 @@
+{
+  "name": "cssjsclock",
+  "version": "1.0.0",
+  "description": "A css clock using vanilla javascript",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Loder",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
