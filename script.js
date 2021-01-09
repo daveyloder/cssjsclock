@@ -18,10 +18,16 @@ function setDate() {
 }
 function formatTime(){
     const now = new Date();
-    const seconds = now.getSeconds();
-    const minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+    let minutes = now.getMinutes();
     let hours = now.getHours();
     let midday = "AM"
+    if (seconds < 10) {
+        seconds = "0"+now.getSeconds();
+    }
+    if (minutes < 10) {
+        minutes = "0"+now.getMinutes();
+    }
     if (hours > 12) {
      hours = now.getHours()- 12;
      midday = "PM"
